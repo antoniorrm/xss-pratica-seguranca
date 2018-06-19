@@ -79,7 +79,7 @@ O framework contém vários módulos de comando que empregam a API simples e pod
 No nosso caso podemos usar o Xampp. 
 Pois iremos utilizar o php, apache e o banco de dados.
 
-[Instalação Xampp Ubuntu](http://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux/)
+[Instalação Xampp Ubuntu](http://www.codebind.com/linux-tutorials/install-xampp-ubuntu-16-04/)
 
 #### Configurar o banco
 
