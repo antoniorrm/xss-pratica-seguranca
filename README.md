@@ -10,14 +10,14 @@ O atacante não direciona diretamente a vítima. Em vez disso, ele explora uma v
 
 A única maneira de o invasor executar o JavaScript mal-intencionado no navegador da vítima é injetá-lo em uma das páginas que a vítima baixa do site. Isso pode acontecer se o site incluir diretamente a entrada do usuário em suas páginas, porque o invasor pode inserir uma sequência que será tratada como código pelo navegador da vítima.
 
-No exemplo abaixo, um script simples do lado do servidor é usado para exibir o comentário mais recente em um site:
+<!-- No exemplo abaixo, um script simples do lado do servidor é usado para exibir o comentário mais recente em um site:
 
 ```js
 print "<html>"
 print "Latest comment:"
 print database.latestComment
 print "</html>"
-```
+``` -->
 ### Atores em um ataque XSS
 Antes de descrevermos em detalhes como um ataque XSS funciona, precisamos definir os atores envolvidos em um ataque XSS. Em geral, um ataque XSS envolve três atores: o site , a vítima e o invasor .
 
